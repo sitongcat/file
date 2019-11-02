@@ -31,6 +31,8 @@ public class ReadTxt {
         } catch (IOException e) {
             e.printStackTrace();
         }
+
+        String text = "sfdsfdsf";
     }
 
     public static boolean deleteFile(String pathname){
@@ -45,7 +47,9 @@ public class ReadTxt {
             System.out.println(file.getPath() + " was already deleted!");
           //  System.out.println("deleted!");
         }
-        return result;
+        return result; //---
+
+
     }
 
 }
